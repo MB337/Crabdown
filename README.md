@@ -54,3 +54,4 @@ yarn tauri build
 - [ ] Default but customizable editor settings
 - [ ] Add chart support
 - [ ] Add UML support
+- [X] Character counter
