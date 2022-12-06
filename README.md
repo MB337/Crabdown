@@ -27,6 +27,7 @@ The following libraries were then added:
 
 ## <p align="center"> 🌟 Getting started </p>
 First of all you need to have <a href="https://tauri.app/v1/guides/getting-started/prerequisites">Tauri prerequisites</a>.
+
 Once you have cloned the project you'll have to install dependencies:
 
 ```prompt
@@ -38,7 +39,18 @@ If you want to modify the application you can run:
 yarn tauri dev
 ```
 
-If you are good with the application you can build the app:
+When the application satisfies you, you can generate the executable:
 ```prompt
 yarn tauri build
 ```
+
+<br/>
+
+## <p align="center"> 📋 TO DO </p>
+- [ ] Add math expression support
+- [ ] Add themes
+- [ ] Zoom function
+- [ ] Styles settings (fonts, colors, font size ecc.)
+- [ ] Default but customizable editor settings
+- [ ] Add chart support
+- [ ] Add UML support
