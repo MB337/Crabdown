@@ -60,3 +60,11 @@ yarn tauri build
 - [ ] Add chart support
 - [ ] Add UML support
 - [X] Character counter
+
+<br/>
+
+## <p align="center"> ⚡ Performance </p>
+<p align="center"> Thanks to Tauri CrabDown becomes very light: it will require only 70MB of RAM and a 0.4% CPU usage. </p>
+<p align="center">
+  <img src="https://i.ibb.co/gg13N5B/Immagine-2022-12-06-203730.png">
+</p>
