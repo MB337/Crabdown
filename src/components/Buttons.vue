@@ -89,7 +89,7 @@ export default {
         <button @click="strike" class="hover:bg-[#57b1ff62] rounded-lg px-1 duration-300"><i class="bi bi-type-strikethrough text-xl"></i></button>
         <button @click="code" class="hover:bg-[#57b1ff62] rounded-lg px-1 duration-300"><i class="bi bi-code-slash text-xl"></i></button>
         <button @click="link" class="hover:bg-[#57b1ff62] rounded-lg px-1 duration-300"><i class="bi bi-link-45deg"></i></button>
-        <div class="dropdown p-0 mt-1 ml-1">
+        <div class="dropdown p-0 mt-1 hover:bg-[#57b1ff62] rounded-lg px-1 duration-300">
           <label tabindex="0" class="bg-[transparent] cursor-pointer"><i class="bi bi-emoji-laughing h-full"></i></label>
           <div tabindex="0" class="dropdown-content p-2 shadow bg-base-100 rounded-box w-52 flex-row gap-y-1">
             <button class="w-2/12" @click="emoji"><i class="bi bi-github"></i></button>
