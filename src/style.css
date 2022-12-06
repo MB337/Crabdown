@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-gray-800 text-white m-0 p-0;
+  height: 100vh;
+  overflow-y: hidden
+}
+
+#preview-area code{
+  @apply bg-gray-700 text-white p-1 rounded-lg my-1;
+}
+
+#preview-area .math{
+  @apply bg-[transparent] text-white p-1 rounded-lg my-1;
+}
+
+hr{
+  @apply border-gray-200 py-3;
+}
+
+h1 {
+  @apply text-4xl pb-3 font-bold;
+}
+
+h2 {
+  @apply text-3xl py-2 font-bold;
+}
+
+h3 {
+  @apply text-2xl py-2 font-bold;
+}
+
+h4 {
+  @apply text-xl pb-1 font-bold;
+}
+
+h5 {
+  @apply text-lg pb-1 font-bold;
+}
+
+h6 {
+  @apply text-base pb-1 font-bold;
+}
+
+p {
+  @apply text-base pb-3;
+}
+
+#preview-area ul{
+  @apply marker:text-sky-400 list-disc pl-5 space-y-1;
+}
+
+#preview-area blockquote{
+  @apply text-base italic border-l-4 border-sky-400 pl-3;
+}
+
+#preview-area blockquote > p{
+  @apply pb-0 my-3;
+}
+
+::-webkit-scrollbar {
+  width: 10px !important;
+  height: 10px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255); 
+  border-radius: 2rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+  cursor: pointer;
+}
+
+#editable-area[placeholder]:empty:before{
+  content: attr(placeholder);
+  color: rgba(255, 255, 255, 0.589);
+  font-style: italic;
+}
