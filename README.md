@@ -2,6 +2,11 @@
   <img src="https://i.ibb.co/LrbzrMd/Square310x310-Logo.png">
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/github/license/MB337/Crabdown?color=%23ff002f&style=flat-square">
+  <img src="https://img.shields.io/github/downloads/MB337/Crabdown/total?style=flat-square">
+</p>
+
 ## <p align="center"> 🦀 The Crabdown Editor </p>
 
 CrabDown is a markdown editor that uses <a href="https://tauri.app/">"Tauri"</a> technology to create a light and fast application.
